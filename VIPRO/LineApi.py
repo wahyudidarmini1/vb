@@ -44,9 +44,9 @@ class LINE:
     self.authToken = self.Talk.authToken
     self.cert = self.Talk.cert
     self._headers = {
-              'X-Line-Application': 'CHROMEOS\t7.18.0\tiVipro\t11.12.1',
+              'X-Line-Application': 'DESKTOPMAC 10.10.2-YOSEMITE-X64 MAC 5.5.1',
               'X-Line-Access': self.authToken,
-              'User-Agent': 'Line/7.18.0'
+              'User-Agent': 'Mozilla/57.0.4'
    }
 
     self.Poll = Poll(self.authToken)
