@@ -2,7 +2,7 @@
 import VIPRO
 from VIPRO.lib.curve.ttypes import *	
 from datetime import datetime	
-import io,os,re,ast,six,sys,glob,json,time,timeit,codecs,random,shutil,urllib,urllib2,urllib3,goslate,html5lib,requests,threading,wikipedia,subprocess,googletrans	,pytz
+import io,os,re,ast,six,sys,glob,json,time,timeit,codecs,random,shutil,urllib,urllib2,urllib3,goslate,requests,threading,wikipedia,subprocess,googletrans	,pytz
 from gtts import gTTS	
 from random import randint	
 from time import sleep	
