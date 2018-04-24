@@ -20,56 +20,56 @@ else:
     import urllib.parse
 
 owner = VIPRO.LINE() #Akun Utama
-owner.login(token="token")
+owner.login(token="Es78bnERjKNbEJLI0CP2.AZs3a8Vf+ipnhLTOmQbtuG.AU2/L/5P4IAWRrmZOeOzFsUIXQ19jlsE+stzKhK+sOU=")
 owner.loginResult()
     
 vipro = VIPRO.LINE()
-vipro.login(token="token")
+vipro.login(token="EswXitR5bFB1Q9dF2MHb.drkXjI9kC7gz45kx2rUb2W.O/DD36aXIaDFhq+9Xo0nNod8V5kYukzf6H0ppRyB+9Q=")
 vipro.loginResult()
 
 ki = VIPRO.LINE()
-ki.login(token="token")
+ki.login(token="EsAT5kyY1TNYKD1TVRk3.eXGEKA8y87MQtoFvPFGwuW.1DnxoTlPr1ILLFX434baggg5zhPQ3VmpORJ5C0jPGuk=")
 ki.loginResult()
 
 ki2= VIPRO.LINE()
-ki2.login(token="token")
+ki2.login(token="EsXQKI9b4s7cuLspPzL8.1e8nOeP/17yuiWiheXA//a.qf5kzDNsT6xt8aLGApl8bsxTT1tECPXmf6VCq0Xc5pg=")
 ki2.loginResult()
 
 ki3 = VIPRO.LINE()
-ki3.login(token="token")
+ki3.login(token="EsqqFxpV0wbhpqm119Qf.StMJ2yMSv7H5XrT17lGnZW.5y/gFUTpJASiv0SPf1fRU6e9iu9aBWYr6xpzfxlNC+o=")
 ki3.loginResult()
 
 ki4 = VIPRO.LINE()
-ki4.login(token="token")
+ki4.login(token="EsRTnS2XJvUseJVHj2Ua.SD28EqyjtLBjPT144PdcQG.cpDFMsy5pUKzJLzxpHVYu6AzHfVf7KZA1qKw/42/nW4=")
 ki4.loginResult()
 
 ki5 = VIPRO.LINE()
-ki5.login(token="token")
+ki5.login(token="Eslrl9nIv8ffrUp3Ommc.Ee/eeDlrP0uTdFlXuHf9Na.WfXuiqwhbGKI2UuaKFru01WcT7vrJiaC5aeyOmPb7Q4=")
 ki5.loginResult()
 
 ki6 = VIPRO.LINE()
-ki6.login(token="token")
+ki6.login(token="EsRNxYSs8sEXjqZTnYJ9.VfG2daMSMKOL78PxRGOi6q.i+jYhy6BEauEJpoCpHjYtMv+/giVSnvOCqqm+5deSrQ=")
 ki6.loginResult()
 
 ki7 = VIPRO.LINE()
-ki7.login(token="token")
+ki7.login(token="EsXWKc1xIVBABEpguSY6.u5E0qHumGolsyebggFHFzG.kXPGyCt15KeM7Ch6SzKylMmwCiO/o9pl6xuPzE42bsE=")
 ki7.loginResult()
 
 ki8 = VIPRO.LINE()
-ki8.login(token="token")
+ki8.login(token="EsXYhSGsrBgirQIgiFlf.0Gxc/M3RVqR4nYkPcDjtZW.a8reeSge/Q7XLhSjK2G+efF1RzASHkRHL8xdeWUHqAI=")
 ki8.loginResult()
 
 ki9 = VIPRO.LINE()
-ki9.login(token="token")
+ki9.login(token="Esr3YuojB0sylnXPTWX3.Z7tUqKO5oaEP2cnIzYreyW.YueNAifwqpRcwq6oUjxmO148hlttV4knXgFnO3Xzx7c=")
 ki9.loginResult()
 
 ki10 = VIPRO.LINE() #Ghost
-ki10.login(token="token")
+ki10.login(token="EsGzmax1m9HCvjscTSvc.Ee/eeDlrP0uTdFlXuHf9Na.kBFK3ofvtKp2VAP4r6pZw2nioywfdhgin3IqzbyFIA4=")
 ki10.loginResult()
 print "═══「vipro login success」═══"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMenu="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpMenu="""╔═══「 jombang ʙᴏᴛ」═══╗
 ╠╦═══════════════
 ║║🔰 Me
 ║║🔰 Add
@@ -136,9 +136,9 @@ helpMenu="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔰 Pmfavorite
 ║║🔰 Broken
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 jombang ʙᴏᴛ」═══╝
   """
-helpMessage="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpMessage="""╔═══「 jombang ʙᴏᴛ」═══╗
 ╠╦═══════════════
 ║║🔵 「Menu」
 ║║🔵 「Media」
@@ -147,9 +147,9 @@ helpMessage="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔵 「Settings」
 ║║🔵 「Set」
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 jombang ʙᴏᴛ」═══╝
 """  
-helpMedia="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpMedia="""╔═══「 jombang ʙᴏᴛ」═══╗
 ╠╦═══════════════
 ║║🔘 Youtube 「 text」
 ║║🔘 Youtubesearch 「 user」
@@ -201,9 +201,9 @@ helpMedia="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔘 Wikipedia 「 text」
 ║║🔘 Checkdate 「 ttl」
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 jombang ʙᴏᴛ」═══╝
 """
-helpFun = """╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpFun = """╔═══「 jombang ʙᴏᴛ」═══╗
 ╠╦═══════════════
 ║║🔰 sider:「 text」
 ║║🔰 tagme:「 text」
@@ -212,10 +212,10 @@ helpFun = """╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔰 message set:「 text」
 ║║🔰 cekresponse
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 jombang ʙᴏᴛ」═══╝
 """
 helpself="""
-╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+╔═══「 jombang ʙᴏᴛ」═══╗
 ╠╦═══════════════
 ║║💠 Fuck1/10 "@"
 ║║💠 Kick1/10 "@"
@@ -237,9 +237,9 @@ helpself="""
 ║║💠 Allbio 「 status」
 ║║💠 Botbyeall  
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 jombang ʙᴏᴛ」═══╝
   """
-helpset="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpset="""╔═══「 jombang ʙᴏᴛ」═══╗
 ╠╦═══════════════
 ║║🔶 Ban:on/Unbl:on
 ║║🔶 Contact:on/off
@@ -270,10 +270,10 @@ helpset="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔶 Ghost:on/off
 ║║🔶 Allprotect:on/off
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 jombang ʙᴏᴛ」═══╝
 """
 translateMessage ="""
-╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+╔═══「 jombang ʙᴏᴛ」═══╗
 ╠╦═══════════════
 ║║🔴 Afrika/
 ║║🔴 Albanian/
@@ -326,7 +326,7 @@ translateMessage ="""
 ║║🔴 Vietnam/
 ║║🔴 Welsh/
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 jombang ʙᴏᴛ」═══╝
 """
 KAC=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
 DEF=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
@@ -342,10 +342,10 @@ ki8mid = ki8.getProfile().mid
 ki9mid = ki9.getProfile().mid
 ki10mid = ki10.getProfile().mid
 Smid = owner.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"uda936836a9869eb86ec8ab992a4e8979"]
-admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"uda936836a9869eb86ec8ab992a4e8979","ue4e13b0a41d848845489374e671c6861","ub21eb3d440e0dfd640eef9f2fb5ce02d","u782cdf7a9fd2545c84a0cd86f418e9f7","u799da4e06d50e1775cfcff1f3e59df03"]
-creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admsa=["uda936836a9869eb86ec8ab992a4e8979"]
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"u6b34b703cbc5fc83cd1e5b6832a05352"]
+admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"u6b34b703cbc5fc83cd1e5b6832a05352","u0d12b1262f4a73b199e39297d91b81db","u13181e91af18f3b9aa4ce7d5a5f81653","ud44f0da04a7ed7b6142302071316bef8","ub139a3d989ac57b879c51b75ecb80dcf"]
+creator=["u6b34b703cbc5fc83cd1e5b6832a05352"]
+admsa=["u6b34b703cbc5fc83cd1e5b6832a05352"]
 
 readOpen = codecs.open("st2__b.json","r","utf-8")
 read = json.load(readOpen)
@@ -431,7 +431,7 @@ wait = {
     'message':"THANKS FOR ADD ME",
     "lang":"JP",
     "comment":"Thanks For Add Me",
-    "comment1":"ᴀᴜᴛᴏ ʟɪᴋᴇ ⓑⓨ「 ᴠɪᴘʀᴏ 」\n\n\n\nline.me/ti/p/~gjxvipro",
+    "comment1":"ᴀᴜᴛᴏ ʟɪᴋᴇ ⓑⓨ「 ᴠɪᴘʀᴏ 」\n\n\n\nline.me/ti/p/~yudi_std02",
     "commentOn":False,
     "likeOn":{},
     "wcOn":True,
@@ -931,28 +931,28 @@ def bot(op):
         if op.type == 19:
             if mid in op.param3:
                 wait["blacklist"][op.param2] = True
-            #if op.param2 not in Bots + admin + creator:
-             #     if wait["Ghost"] == True:  
-              #     try:
-               #        klist=[vipro,ki,ki2,ki3,ki4,ki5]
-                #       kicker = random.choice(klist)
-                 #      G = kicker.getGroup(op.param1)
-                  #     G.preventJoinByTicket = False
-                  #     kicker.updateGroup(G)
-                  #     Ticket = kicker.reissueGroupTicket(op.param1)
-                  #     ki10acceptGroupInvitationByTicket(op.param1,Ticket)
-                  #     time.sleep(0.0002)
-                  #     X = kicker.getGroup(op.param1)             
-                  #     X.preventJoinByTicket = True
-                 #      ki10.kickoutFromGroup(op.param1,[op.param2])
-                 #      kicker.kickoutFromGroup(op.param1,[op.param2])
-                 #      ki10.leaveGroup(op.param1)
-                  #     kicker.updateGroup(X)
-                  # except Exception, e:
-                   #         print e
-           # if op.param2 not in Bots:
-            #  random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
-             # vipro.inviteIntoGroup(op.param1,[op.param3])
+            if op.param2 not in Bots + admin + creator:
+                  if wait["Ghost"] == True:  
+                   try:
+                       klist=[vipro,ki,ki2,ki3,ki4,ki5]
+                       kicker = random.choice(klist)
+                       G = kicker.getGroup(op.param1)
+                       G.preventJoinByTicket = False
+                       kicker.updateGroup(G)
+                       Ticket = kicker.reissueGroupTicket(op.param1)
+                       ki10acceptGroupInvitationByTicket(op.param1,Ticket)
+                       time.sleep(0.0002)
+                       X = kicker.getGroup(op.param1)             
+                       X.preventJoinByTicket = True
+                       ki10.kickoutFromGroup(op.param1,[op.param2])
+                       kicker.kickoutFromGroup(op.param1,[op.param2])
+                       ki10.leaveGroup(op.param1)
+                       kicker.updateGroup(X)
+                   except Exception, e:
+                            print e
+            if op.param2 not in Bots:
+              random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+              vipro.inviteIntoGroup(op.param1,[op.param3])
             if op.param2 not in Bots + admin + creator:
                     try:
                     	gs = vipro.getGroup(op.param1)
@@ -1283,7 +1283,7 @@ def bot(op):
                     vipro.sendText(msg.to,msg.text)
             elif msg.text is None:
                 return
-            elif msg.text in ["Botallbye"]: 
+            elif msg.text in ["Bot moleh"]: 
               if msg.from_ in creator:    
                 gid = ki.getGroupIdsJoined()
                 gid = ki2.getGroupIdsJoined()
@@ -1571,7 +1571,7 @@ def bot(op):
                        eltime = time.time() - mulai
                        van = "Bot has been active "+waktu(eltime)
                        vipro.sendText(msg.to,van) 
-            elif "Mybots" == msg.text:
+            elif "Mybot" == msg.text:
               if msg.from_ in creator + admin:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': kimid}
@@ -2182,7 +2182,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {"mid":mmid}
                 vipro.sendMessage(msg)
-            elif msg.text in ["Allprotect:on"]:
+            elif msg.text in ["Wahyudi"]:
               if msg.from_ in creator + admin:
                 if wait["protect"] == True:
                     if wait["lang"] == "JP":
@@ -2235,7 +2235,7 @@ def bot(op):
                     else:
                         vipro.sendText(msg.to,"It is already On ✔")
 #=====================================================================================
-            elif msg.text in ["Allprotect:off"]:
+            elif msg.text in ["Darmini"]:
               if msg.from_ in creator + admin:
                 if wait["protect"] == False:
                     if wait["lang"] == "JP":
@@ -2532,7 +2532,7 @@ def bot(op):
                         vipro.sendText(msg.to,"Off ✖")
             elif msg.text.lower() == 'set':
               if msg.from_ in creator + admin:
-                md = "╔══「 ᴠɪᴘʀᴏ ʙᴏᴛ」══╗\n║═════════════║\n"
+                md = "╔══「 jombang ʙᴏᴛ」══╗\n║═════════════║\n"
                 if wait["likeOn"] == True: md+="║☆║Like:ON➡️✅\n"
                 else: md+="║☆║Like:OFF➡️❌\n"
                 if wait["wcOn"] == True: md+="║☆║Welcome:ON➡️✅\n"
@@ -2564,7 +2564,7 @@ def bot(op):
                 if wait["autoAdd"] == True: md+="║☆║Add:ON➡️✅\n"
                 else:md+="║☆║Add:OFF➡️❌\n"
                 if wait["commentOn"] == True: md+="║☆║Com:ON➡️✅\n"
-                else:md+="║☆║Com:OFF➡️❌\n║═║❨◄═══►❩\n║☆║◄═PROTECTION═►\n║═║═VIPRO═╣\n"
+                else:md+="║☆║Com:OFF➡️❌\n║═║❨◄═══►❩\n║☆║◄═PROTECTION═►\n║═║═jombang═╣\n"
                 if wait["protect"] == True: md+="║☆║Pro:ON➡️✅\n"
                 else:md+="║☆║Pro:OFF➡️❌\n"
                 if wait["linkprotect"] == True: md+="║☆║ProtectQr:ON➡️✅\n"
@@ -2577,7 +2577,7 @@ def bot(op):
                 else: md+="║☆║Namelock:OFF➡️❌\n"   
                 if wait["Ghost"] == True: md+="║☆║Ghost:ON➡️✅\n"
                 else: md+="║☆║Ghost:OFF➡️❌\n"
-                vipro.sendText(msg.to,md + "║════════════║\n╚══「 ᴠɪᴘʀᴏ ʙᴏᴛ」══╝")
+                vipro.sendText(msg.to,md + "║════════════║\n╚══「 jombang ʙᴏᴛ」══╝")
             elif "Creatorgrup" == msg.text:
                 try:
                     group = vipro.getGroup(msg.to)
@@ -2599,7 +2599,7 @@ def bot(op):
                     vipro.sendText(msg.to,"old user")
             elif cms(msg.text,["Add"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'uda936836a9869eb86ec8ab992a4e8979'}
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 vipro.sendText(msg.to,"❂•••••••••✧••••••••••❂")
                 vipro.sendMessage(msg)
             elif "Tagme: " in msg.text:
@@ -2647,7 +2647,7 @@ def bot(op):
             	vipro.sendText(msg.to,"👇Respon saat member left👇\n" + wait["leftgc"])
             	vipro.sendText(msg.to,"👇Respon saat member readchat👇\n" + wait["sider1"])
             	vipro.sendText(msg.to,"👇Respon saat member memanggil👇\n" + wait["responName"])
-            	vipro.sendText(msg.to,"👇Respon di autolike👇\n" + wait["comment1"] + "\n\nHAL INI TIDAK DAPAT DI UBAH SESUAI HAK CIPTA\nCREATOR::VIPRO")
+            	vipro.sendText(msg.to,"👇Respon di autolike👇\n" + wait["comment1"] + "\n\nHAL INI TIDAK DAPAT DI UBAH SESUAI HAK CIPTA\nCREATOR::jombang")
             elif msg.text in ["Left:on"]:
               if msg.from_ in creator + admin:
                 if wait["leftOn"] == True:
@@ -4281,12 +4281,12 @@ def bot(op):
 #------------------------------------------------------------
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
-                admin1 = "uda936836a9869eb86ec8ab992a4e8979"
-                admin2 = "ub21eb3d440e0dfd640eef9f2fb5ce02d"
-                admin3 = "u782cdf7a9fd2545c84a0cd86f418e9f7"
-                admin4 = "ue4e13b0a41d848845489374e671c6861"
-                admin5 = "u799da4e06d50e1775cfcff1f3e59df03"
-                admin6 = "u00d73ba3e810e651e8c5690723e1b5bf"
+                admin1 = "u6b34b703cbc5fc83cd1e5b6832a05352"
+                admin2 = "ue14c0daed8eee7562dffe709c6d6216e"
+                admin3 = "u0d12b1262f4a73b199e39297d91b81db"
+                admin4 = "u13181e91af18f3b9aa4ce7d5a5f81653"
+                admin5 = "ud44f0da04a7ed7b6142302071316bef8"
+                admin6 = "ub139a3d989ac57b879c51b75ecb80dcf"
                 msg.contentMetadata = {'mid': admin1}
                 vipro.sendMessage(msg)
                 msg.contentMetadata = {'mid': admin2}
@@ -4381,7 +4381,7 @@ def bot(op):
                                 print (msg.to,[g.mid])
                             except:
                                 pass
-            elif msg.text in ["Tag","Tagall","Mencret"]:
+            elif msg.text in ["Tag","Tagall","Mak"]:
               if msg.from_ in creator + admin:
                 group = vipro.getGroup(msg.to)
                 k = len(group.members)//500
@@ -4397,7 +4397,7 @@ def bot(op):
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     vipro.sendMessage(msg) 
-            elif msg.text.lower() == 'in':
+            elif msg.text.lower() == 'Masuk':
                 if msg.from_ in creator:
                         G = vipro.getGroup(msg.to)
                         ginfo = vipro.getGroup(msg.to)
@@ -4624,7 +4624,7 @@ def bot(op):
 #-----------------------------------------------
 #------------------------------------------------------------------
 
-            elif msg.text.lower() == 'out':
+            elif msg.text.lower() == 'Moleh':
               if msg.from_ in creator + admin:
                 if msg.toType == 2:
                     ginfo = vipro.getGroup(msg.to)
@@ -5384,7 +5384,7 @@ def bot(op):
         if op.type == 5:
             if wait["autoAdd"] == True:
             	c = Message(to=op.param1, from_=None, text=None, contentType=13)
-                c.contentMetadata={'mid':'uda936836a9869eb86ec8ab992a4e8979'}
+                c.contentMetadata={'mid':'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 vipro.sendImageWithURL(op.param1,"http://dl.profile.line-cdn.net/0h9lRSzNuMZkNvKkqg8-AZFFNvaC4YBGALF0t9dhh9OHZBTihABk0hcU55bCdEE3UcVhh6dx4jOXdD")
                 if (wait["message"] in [""," ","\n",None]):
                     pass
