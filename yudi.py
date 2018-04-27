@@ -20,53 +20,53 @@ else:
     import urllib.parse
 
 owner = VIPRO.LINE() #Akun Utama
-owner.login(token="EsGeLt0wGpw4lxVEkfrb.drkXjI9kC7gz45kx2rUb2W.YLMPgsy7VvNW7aqg81oOrFj6C4EK5ey61r+s7ZO7/5g=")
+owner.login(token="EsRMgnSNYmKyDmevHmo2.AZs3a8Vf+ipnhLTOmQbtuG.QjNuPnp0AucaAvOxSugXe5sMVPVyWCVjAt4kuhHNBQI=")
 owner.loginResult()
     
 vipro = VIPRO.LINE()
-vipro.login(token="EsV4melT6DSiaPov2QT3.eXGEKA8y87MQtoFvPFGwuW.h0KZfk94tOhM4A8mOTHZOS0UOJruzBUpc4wmNElUvLY=")
+vipro.login(token="EsGeLt0wGpw4lxVEkfrb.drkXjI9kC7gz45kx2rUb2W.YLMPgsy7VvNW7aqg81oOrFj6C4EK5ey61r+s7ZO7/5g=")
 vipro.loginResult()
 
 ki = VIPRO.LINE()
-ki.login(token="EsgfDaaBRXtj06q4iRt8.1e8nOeP/17yuiWiheXA//a.szB6Mo80SA/ykNQxwf5/3TjkJxp5J6H7LIi5DLIeCxo=")
+ki.login(token="EsV4melT6DSiaPov2QT3.eXGEKA8y87MQtoFvPFGwuW.h0KZfk94tOhM4A8mOTHZOS0UOJruzBUpc4wmNElUvLY=")
 ki.loginResult()
 
 ki2= VIPRO.LINE()
-ki2.login(token="Es40yLFUTANU8lFvN2Lf.StMJ2yMSv7H5XrT17lGnZW.kEyscUBZhkTetrYq3H0q0SLXC21rYuzgIrMIeWDz+GA=")
+ki2.login(token="EsgfDaaBRXtj06q4iRt8.1e8nOeP/17yuiWiheXA//a.szB6Mo80SA/ykNQxwf5/3TjkJxp5J6H7LIi5DLIeCxo=")
 ki2.loginResult()
 
 ki3 = VIPRO.LINE()
-ki3.login(token="EsJMcXRaDmExzzr5zTI9.VfG2daMSMKOL78PxRGOi6q.RcWGMagc5K3+6LlDanR2YYPvhF8BYa33FNlQhqSYMMo=")
+ki3.login(token="Es40yLFUTANU8lFvN2Lf.StMJ2yMSv7H5XrT17lGnZW.kEyscUBZhkTetrYq3H0q0SLXC21rYuzgIrMIeWDz+GA=")
 ki3.loginResult()
 
 ki4 = VIPRO.LINE()
-ki4.login(token="EsnMKi93UnuOpfaG3f06.u5E0qHumGolsyebggFHFzG.HmAuW68/wD/4mg1WkZksDy8M6GJ+Egt8THruRrkQHh8=")
+ki4.login(token="Esx2WRzbGqatmcvRgmAa.SD28EqyjtLBjPT144PdcQG.mkG2Prb5slJtZ74V0hAvZh1op/hBvVJ8ekt3waO3tIU=")
 ki4.loginResult()
 
 ki5 = VIPRO.LINE()
-ki5.login(token="EsK4UFgbe4QlW9LcpmKf.0Gxc/M3RVqR4nYkPcDjtZW.BHczquHxsjUkKhv7Q30yzzJtzNpcZMgdmxRzgjD/mtg=")
+ki5.login(token="EsJMcXRaDmExzzr5zTI9.VfG2daMSMKOL78PxRGOi6q.RcWGMagc5K3+6LlDanR2YYPvhF8BYa33FNlQhqSYMMo=")
 ki5.loginResult()
 
 ki6 = VIPRO.LINE()
-ki6.login(token="Es1qYChgtJZXKCzYNRw3.Z7tUqKO5oaEP2cnIzYreyW.bmRiFW67UtiD1+//IfghYOeNXo/Vl9BV762TyeG5GAY=")
+ki6.login(token="EsnMKi93UnuOpfaG3f06.u5E0qHumGolsyebggFHFzG.HmAuW68/wD/4mg1WkZksDy8M6GJ+Egt8THruRrkQHh8=")
 ki6.loginResult()
 
 ki7 = VIPRO.LINE()
-ki7.login(token="EswMurTdeyhmrrlB0ryc.Ee/eeDlrP0uTdFlXuHf9Na.gPqP/QHUWAxvhxQkoTqHguBjHWDxmUgnTtZd15gyg9E=")
+ki7.login(token="EsxVQdRZnFCkAm9GDkT1.hSPlQK0sOlldo8W2iFcJWq.4Y4wu7+lG5FJ6p4heKlfCLLBzCRKibJtbsK15TUcs8U=")
 ki7.loginResult()
 
 ki8 = VIPRO.LINE()
-ki8.login(token="EseSSJsiyyFc3656qUpb.laBbOEpcsXIXQThDvNl//W.MfHgHRAqMKgCBGVznGVsZe6q8LQY4I+5OFw3gEi646Y=")
+ki8.login(token="EsN1KaKwr4WAtSKvEJT3.Z7tUqKO5oaEP2cnIzYreyW.NhHa87dISbP0qSIrGSegFfbGsInKfuSpm7fEuvo63XY=")
 ki8.loginResult()
 
 ki9 = VIPRO.LINE()
-ki9.login(token="EsxVQdRZnFCkAm9GDkT1.hSPlQK0sOlldo8W2iFcJWq.4Y4wu7+lG5FJ6p4heKlfCLLBzCRKibJtbsK15TUcs8U=")
+ki9.login(token="EswMurTdeyhmrrlB0ryc.Ee/eeDlrP0uTdFlXuHf9Na.gPqP/QHUWAxvhxQkoTqHguBjHWDxmUgnTtZd15gyg9E=")
 ki9.loginResult()
 
 ki10 = VIPRO.LINE() #Ghost
-ki10.login(token="Eso4HP08vQMTKbiSAsX5.s0GaOrjP6Vfn98NxODhvLq.zYEo8QLJRCTh00XksY8kLcQk/lUJnJKicYVjuttCnoU=")
+ki10.login(token="EseSSJsiyyFc3656qUpb.laBbOEpcsXIXQThDvNl//W.MfHgHRAqMKgCBGVznGVsZe6q8LQY4I+5OFw3gEi646Y=")
 ki10.loginResult()
-print "═══「vipro login success」═══"
+print "═══「yudi login success」═══"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMenu="""╔═══「 jombang ʙᴏᴛ」═══╗
