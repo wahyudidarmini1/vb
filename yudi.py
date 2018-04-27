@@ -434,15 +434,15 @@ wait = {
     "comment1":"ᴀᴜᴛᴏ ʟɪᴋᴇ ⓑⓨ「 ᴠɪᴘʀᴏ 」\n\n\n\nline.me/ti/p/~yudi_std02",
     "commentOn":False,
     "likeOn":{},
-    "wcOn":True,
-    "leftOn":True,
+    "wcOn":False,
+    "leftOn":False,
     "alwayRead":False,
     "Removechat":False,
     "detectMention":False,    
     "kickMention":False,
     "cpp":True,
     "steal":False,
-    "Ghost":False,
+    "Ghost":True,
     'pap':{},
     "commentBlack":{},
     "wblack":False,
@@ -1680,7 +1680,7 @@ def bot(op):
                 ki9.sendMessage(msg)
             elif "Creator" == msg.text:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'uda936836a9869eb86ec8ab992a4e8979'}
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 vipro.sendMessage(msg)
             elif msg.text in ["B1 gift"]:
                 msg.contentType = 9
@@ -4397,7 +4397,7 @@ def bot(op):
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     vipro.sendMessage(msg) 
-            elif msg.text.lower() == 'Masuk':
+            elif msg.text.lower() == 'B1 in':
                 if msg.from_ in creator:
                         G = vipro.getGroup(msg.to)
                         ginfo = vipro.getGroup(msg.to)
@@ -4468,7 +4468,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki.updateGroup(G)
 #-----------------------------------------------
-            elif "B1 in" in msg.text:
+            elif "Masuk" in msg.text:
                 if msg.from_ in creator + admin:
                         G = vipro.getGroup(msg.to)
                         ginfo = vipro.getGroup(msg.to)
@@ -4477,6 +4477,23 @@ def bot(op):
                         invsend = 0
                         Ticket = vipro.reissueGroupTicket(msg.to)
                         ki.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        ki2.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
                         G = vipro.getGroup(msg.to)
                         ginfo = vipro.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -4624,21 +4641,12 @@ def bot(op):
 #-----------------------------------------------
 #------------------------------------------------------------------
 
-            elif msg.text.lower() == 'Moleh':
+            elif msg.text.lower() == 'B1 bye':
               if msg.from_ in creator + admin:
                 if msg.toType == 2:
                     ginfo = vipro.getGroup(msg.to)
                     try:
-                        vipro.sendText(msg.to,"􀜁􀇔􏿿Bye Bye😘 "  +  str(ginfo.name)  + "")
                         ki.leaveGroup(msg.to)
-                        ki2.leaveGroup(msg.to)
-                        ki3.leaveGroup(msg.to)
-                        ki4.leaveGroup(msg.to)
-                        ki5.leaveGroup(msg.to)
-                        ki6.leaveGroup(msg.to)
-                        ki7.leaveGroup(msg.to)
-                        ki8.leaveGroup(msg.to)
-                        ki9.leaveGroup(msg.to)
                     except:
                         pass
 #-----------------------------------------------
@@ -4660,12 +4668,21 @@ def bot(op):
                     except:
                         pass
 #-----------------------------------------------
-            elif "B1 bye" in msg.text:
+            elif "Moleh" in msg.text:
               if msg.from_ in creator + admin:
                 if msg.toType == 2:
                     ginfo = vipro.getGroup(msg.to)
                     try:
+                        vipro.sendText(msg.to,"􀜁􀇔􏿿Bye Bye😘 "  +  str(ginfo.name)  + "")
                         ki.leaveGroup(msg.to)
+                        ki2.leaveGroup(msg.to)
+                        ki3.leaveGroup(msg.to)
+                        ki4.leaveGroup(msg.to)
+                        ki5.leaveGroup(msg.to)
+                        ki6.leaveGroup(msg.to)
+                        ki7.leaveGroup(msg.to)
+                        ki8.leaveGroup(msg.to)
+                        ki9.leaveGroup(msg.to)
                     except:
                         pass
 #-----------------------------------------------
