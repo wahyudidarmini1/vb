@@ -36,35 +36,35 @@ ki2.login(token="Es40yLFUTANU8lFvN2Lf.StMJ2yMSv7H5XrT17lGnZW.kEyscUBZhkTetrYq3H0
 ki2.loginResult()
 
 ki3 = VIPRO.LINE()
-ki3.login(token="Esx2WRzbGqatmcvRgmAa.SD28EqyjtLBjPT144PdcQG.mkG2Prb5slJtZ74V0hAvZh1op/hBvVJ8ekt3waO3tIU=")
+ki3.login(token="EsJMcXRaDmExzzr5zTI9.VfG2daMSMKOL78PxRGOi6q.RcWGMagc5K3+6LlDanR2YYPvhF8BYa33FNlQhqSYMMo=")
 ki3.loginResult()
 
 ki4 = VIPRO.LINE()
-ki4.login(token="EsRTnS2XJvUseJVHj2Ua.SD28EqyjtLBjPT144PdcQG.cpDFMsy5pUKzJLzxpHVYu6AzHfVf7KZA1qKw/42/nW4=")
+ki4.login(token="EsnMKi93UnuOpfaG3f06.u5E0qHumGolsyebggFHFzG.HmAuW68/wD/4mg1WkZksDy8M6GJ+Egt8THruRrkQHh8=")
 ki4.loginResult()
 
 ki5 = VIPRO.LINE()
-ki5.login(token="Eslrl9nIv8ffrUp3Ommc.Ee/eeDlrP0uTdFlXuHf9Na.WfXuiqwhbGKI2UuaKFru01WcT7vrJiaC5aeyOmPb7Q4=")
+ki5.login(token="EsK4UFgbe4QlW9LcpmKf.0Gxc/M3RVqR4nYkPcDjtZW.BHczquHxsjUkKhv7Q30yzzJtzNpcZMgdmxRzgjD/mtg=")
 ki5.loginResult()
 
 ki6 = VIPRO.LINE()
-ki6.login(token="EsRNxYSs8sEXjqZTnYJ9.VfG2daMSMKOL78PxRGOi6q.i+jYhy6BEauEJpoCpHjYtMv+/giVSnvOCqqm+5deSrQ=")
+ki6.login(token="Es1qYChgtJZXKCzYNRw3.Z7tUqKO5oaEP2cnIzYreyW.bmRiFW67UtiD1+//IfghYOeNXo/Vl9BV762TyeG5GAY=")
 ki6.loginResult()
 
 ki7 = VIPRO.LINE()
-ki7.login(token="EsXWKc1xIVBABEpguSY6.u5E0qHumGolsyebggFHFzG.kXPGyCt15KeM7Ch6SzKylMmwCiO/o9pl6xuPzE42bsE=")
+ki7.login(token="EswMurTdeyhmrrlB0ryc.Ee/eeDlrP0uTdFlXuHf9Na.gPqP/QHUWAxvhxQkoTqHguBjHWDxmUgnTtZd15gyg9E=")
 ki7.loginResult()
 
 ki8 = VIPRO.LINE()
-ki8.login(token="EsXYhSGsrBgirQIgiFlf.0Gxc/M3RVqR4nYkPcDjtZW.a8reeSge/Q7XLhSjK2G+efF1RzASHkRHL8xdeWUHqAI=")
+ki8.login(token="EseSSJsiyyFc3656qUpb.laBbOEpcsXIXQThDvNl//W.MfHgHRAqMKgCBGVznGVsZe6q8LQY4I+5OFw3gEi646Y=")
 ki8.loginResult()
 
 ki9 = VIPRO.LINE()
-ki9.login(token="Esr3YuojB0sylnXPTWX3.Z7tUqKO5oaEP2cnIzYreyW.YueNAifwqpRcwq6oUjxmO148hlttV4knXgFnO3Xzx7c=")
+ki9.login(token="EsxVQdRZnFCkAm9GDkT1.hSPlQK0sOlldo8W2iFcJWq.4Y4wu7+lG5FJ6p4heKlfCLLBzCRKibJtbsK15TUcs8U=")
 ki9.loginResult()
 
 ki10 = VIPRO.LINE() #Ghost
-ki10.login(token="EsGzmax1m9HCvjscTSvc.Ee/eeDlrP0uTdFlXuHf9Na.kBFK3ofvtKp2VAP4r6pZw2nioywfdhgin3IqzbyFIA4=")
+ki10.login(token="Eso4HP08vQMTKbiSAsX5.s0GaOrjP6Vfn98NxODhvLq.zYEo8QLJRCTh00XksY8kLcQk/lUJnJKicYVjuttCnoU=")
 ki10.loginResult()
 print "═══「vipro login success」═══"
 reload(sys)
@@ -345,7 +345,7 @@ Smid = owner.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"u6b34b703cbc5fc83cd1e5b6832a05352"]
 admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"u6b34b703cbc5fc83cd1e5b6832a05352","u0d12b1262f4a73b199e39297d91b81db","u13181e91af18f3b9aa4ce7d5a5f81653","ud44f0da04a7ed7b6142302071316bef8","ub139a3d989ac57b879c51b75ecb80dcf"]
 creator=["u6b34b703cbc5fc83cd1e5b6832a05352"]
-admsa=["u6b34b703cbc5fc83cd1e5b6832a05352"]
+admsa=["u6b34b703cbc5fc83cd1e5b6832a05352","u0d12b1262f4a73b199e39297d91b81db"]
 
 readOpen = codecs.open("st2__b.json","r","utf-8")
 read = json.load(readOpen)
