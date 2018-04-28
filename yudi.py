@@ -2567,7 +2567,7 @@ def bot(op):
                 else:md+="™↔"Add:OFF"™❌\n"
                 if wait["commentOn"] == True: md+="™↔"Com:ON"™✅\n"
                 else:md+="™↔"Com:OFF"™❌\n"™↔"❨YUDI❩\n"™↔"◄═PROTECTION═►\n"™↔"jombang\n"
-                if wait["protect"] == True: md+="™↔"Pro:ON↔✅\n"
+                if wait["protect"] == True: md+="™↔"Pro:ON"™✅\n"
                 else:md+="™↔"Pro:OFF"™❌\n"
                 if wait["linkprotect"] == True: md+="™↔"ProtectQr:ON"™✅\n"
                 else:md+="™↔"ProtectQr:OFF"™❌\n"
