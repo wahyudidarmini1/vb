@@ -4918,7 +4918,13 @@ def bot(op):
                         vipro.updateGroup(G)
                     else:
                         G = ki.getGroup(op.param1)
+			
+			
+			
+			
+			
                         ki.kickoutFromGroup(op.param1,[op.param2])
+			
                         G.preventJoinByTicket = False
                         ki.updateGroup(G)
                         Ticket = ki.reissueGroupTicket(op.param1)
@@ -4936,6 +4942,10 @@ def bot(op):
                         vipro.updateGroup(G)
                         ki.updateGroup(G)
                         wait["blacklist"][op.param2] = True
+			
+			
+			
+			
                 elif op.param3 in kimid:
                     if op.param2 in ki2mid:
                         G = ki2.getGroup(op.param1)
@@ -4956,7 +4966,9 @@ def bot(op):
                         ki2.updateGroup(G)
                     else:
                         G = ki2.getGroup(op.param1)
+			
                         ki2.kickoutFromGroup(op.param1,[op.param2])
+			
                         G.preventJoinByTicket = False
                         ki2.updateGroup(G)
                         Ticket = ki2.reissueGroupTicket(op.param1)
@@ -4974,6 +4986,7 @@ def bot(op):
                         vipro.updateGroup(G)
                         ki2.updateGroup(G)
                         wait["blacklist"][op.param2] = True
+			
                 elif op.param3 in ki3mid:
                     if op.param2 in ki2mid:
                         G = ki2.getGroup(op.param1)
@@ -5316,12 +5329,12 @@ def bot(op):
                         ki7.updateGroup(G)
                         vipro.updateGroup(G)
                         wait["blacklist"][op.param2] = True
-		elif op.param3 in kimid:
-                    if op.param2 in ki10mid:
-                        G = ki10.getGroup(op.param1)
+		elif op.param3 in ki10mid:
+                    if op.param2 in kimid:
+                        G = kimid.getGroup(op.param1)
                         G.preventJoinByTicket = False
-                        ki10.updateGroup(G)
-                        Ticket = ki10.reissueGroupTicket(op.param1)
+                        kimid.updateGroup(G)
+                        Ticket = kimid.reissueGroupTicket(op.param1)
                         vipro.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki2.acceptGroupInvitationByTicket(op.param1,Ticket)
@@ -5333,13 +5346,13 @@ def bot(op):
                         ki8.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki9.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G.preventJoinByTicket = True
-                        ki5.updateGroup(G)
+                        ki.updateGroup(G)
                     else:
-                        G = ki10.getGroup(op.param1)
-                        ki10.kickoutFromGroup(op.param1,[op.param2])
+                        G = ki.getGroup(op.param1)
+                        ki.kickoutFromGroup(op.param1,[op.param2])
                         G.preventJoinByTicket = False
-                        ki10.updateGroup(G)
-                        Ticket = ki10.reissueGroupTicket(op.param1)
+                        ki.updateGroup(G)
+                        Ticket = ki.reissueGroupTicket(op.param1)
                         vipro.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki2.acceptGroupInvitationByTicket(op.param1,Ticket)
