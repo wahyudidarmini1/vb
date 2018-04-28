@@ -422,7 +422,7 @@ wait = {
     'message':"THANKS FOR ADD ME",
     "lang":"JP",
     "comment":"Thanks For Add Me",
-    "comment1":"ᴀᴜᴛᴏ ʟɪᴋᴇ ⓑⓨ「 ᴠɪᴘʀᴏ 」\n\n\n\nline.me/ti/p/~yudi_std02",
+    "comment1":"ᴀᴜᴛᴏ ʟɪᴋᴇ ⓑⓨ「 wong-jombang 」\n\n\n\nline.me/ti/p/~yudi_std02",
     "commentOn":False,
     "likeOn":{},
     "wcOn":False,
@@ -911,7 +911,18 @@ def bot(op):
                     X.preventJoinByTicket = True
                     vipro.updateGroup(X)
                     Ti = vipro.reissueGroupTicket(op.param1)
-                                  
+			
+            if op.param3 in ki10mid:
+                if op.param2 in kimid:
+                    X = vipro.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    vipro.updateGroup(X)
+                    Ti = vipro.reissueGroupTicket(op.param1)
+                    ki9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    vipro.updateGroup(X)
+                    Ti = vipro.reissueGroupTicket(op.param1)
+			
         if op.type == 55:
 	    try:
 	      group_id = op.param1
@@ -4665,7 +4676,7 @@ def bot(op):
                     ginfo = vipro.getGroup(msg.to)
                     try:
                         vipro.sendText(msg.to,"􀜁􀇔􏿿Bye Bye😘 "  +  str(ginfo.name)  + "")
-                        ki.leaveGroup(msg.to)
+                        #ki.leaveGroup(msg.to)
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
                         ki4.leaveGroup(msg.to)
@@ -5305,6 +5316,44 @@ def bot(op):
                         ki7.updateGroup(G)
                         vipro.updateGroup(G)
                         wait["blacklist"][op.param2] = True
+		elif op.param3 in kimid:
+                    if op.param2 in ki10mid:
+                        G = ki10.getGroup(op.param1)
+                        G.preventJoinByTicket = False
+                        ki10.updateGroup(G)
+                        Ticket = ki10.reissueGroupTicket(op.param1)
+                        vipro.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki2.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki7.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki8.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki9.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        G.preventJoinByTicket = True
+                        ki5.updateGroup(G)
+                    else:
+                        G = ki10.getGroup(op.param1)
+                        ki10.kickoutFromGroup(op.param1,[op.param2])
+                        G.preventJoinByTicket = False
+                        ki10.updateGroup(G)
+                        Ticket = ki10.reissueGroupTicket(op.param1)
+                        vipro.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki2.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki7.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki8.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        ki9.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        G.preventJoinByTicket = True
+                        ki.updateGroup(G)
+                        vipro.updateGroup(G)
+                        wait["blacklist"][op.param2] = True	
             except:
                 pass
 	if op.type == 17:
