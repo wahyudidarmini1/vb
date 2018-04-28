@@ -2555,7 +2555,7 @@ def bot(op):
                 else:md+="™↔Notag:OFF""™❌\n"
                 if wait["contact"] == True: md+="™↔Contact:ON""™✅\n"
                 else: md+="™↔Contact:OFF""™❌\n"
-                if wait["autoJoin"] == True: md+="™↔Join:ON"™✅\n"
+                if wait["autoJoin"] == True: md+="™↔Join:ON""™✅\n"
                 else: md +="™↔Join:OFF""™❌\n"
                 if wait["autoCancel"]["on"] == True:md+="™↔Cancel:" + str(wait["autoCancel"]["members"]) + "™✅\n"
                 else: md+= "™↔Cancel:OFF""™❌\n"
