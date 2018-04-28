@@ -43,7 +43,6 @@ print
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMenu="""「 jombang ʙᴏᴛ」
-"""
 "™↔[ Selfbot Menu ]
 "™↔ " + key + "Me\n" + \
 "™↔ " + key + "Mid「@」\n" + \
@@ -81,7 +80,6 @@ helpMenu="""「 jombang ʙᴏᴛ」
 "™↔ " + key + "Setkey「New Key」\n" + \
 "™↔ " + key + "Mykey\n" + \
 "™↔ " + key + "Resetkey\n" + \
-"""
 "™↔[Selfbot Hiburan]™
 "™↔ " + key + "ID line:「Id Line nya」\n" + \
 "™↔ " + key + "Sholat:「Nama Kota」\n" + \
@@ -97,7 +95,6 @@ helpMenu="""「 jombang ʙᴏᴛ」
 "™↔ " + key + "Spamtag「@」\n" + \
 "™↔ " + key + "Spamcall:「jumlahnya」\n" + \
 "™↔ " + key + "Spamcall\n" + \
-"""
 "™↔[ Selfbot Protection ]™
 "™↔ " + key + "Notag「on/off」\n" + \
 "™↔ " + key + "Semuapro「on/off」\n" + \
@@ -105,7 +102,6 @@ helpMenu="""「 jombang ʙᴏᴛ」
 "™↔ " + key + "Protectjoin「on/off」\n" + \
 "™↔ " + key + "Protectkick「on/off」\n" + \
 "™↔ " + key + "Protectcancel「on/off」\n" + \
-"""
 "™[ Selfbot Settings ]™
 "™↔ " + key + "Sticker「on/off」\n" + \
 "™↔ " + key + "Respon「on/off」\n" + \
@@ -114,7 +110,6 @@ helpMenu="""「 jombang ʙᴏᴛ」
 "™↔ " + key + "Autoadd「on/off」\n" + \
 "™↔ " + key + "Welcome「on/off」\n" + \
 "™↔ " + key + "Autoleave「on/off」\n" + \
-"""
 "™↔[ Selfbot Admin ]™
 "™↔ " + key + "Admin:on\n" + \
 "™↔ " + key + "Admin:repeat\n" + \
@@ -132,7 +127,6 @@ helpMenu="""「 jombang ʙᴏᴛ」
 "™↔ " + key + "Listbot\n" + \
 "™↔ " + key + "Listadmin\n" + \
 "™↔ " + key + "Listprotect\n" + \
-"""
 helpMessage1 =
 "™[ Selfbot Blacklist ]™
 "™↔ " + key + "Blc\n" + \
@@ -148,7 +142,6 @@ helpMessage1 =
 "™↔ " + key + "Talkbanlist\n" + \
 "™↔ " + key + "Clearban\n" + \
 "™↔ " + key + "Refresh\n" + \
-"""
 "™↔[ Selfbot Menu ]
 "™↔ " + key + "Cek sider\n" + \
 "™↔ " + key + "Cek spam\n" + \
