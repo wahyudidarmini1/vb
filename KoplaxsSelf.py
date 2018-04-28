@@ -39,7 +39,7 @@ sw = VIPRO.LINE()
 sw.login(token="Esngy5vCtMITaj020NAa.SD28EqyjtLBjPT144PdcQG.ZoMwy8ZoNUrB5dBEEfafy/z9px7qrEnn0gpQSq3cZ8U=")
 sw.loginResult()
 
-print 「yudi login success」
+print 
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMenu="""「 jombang ʙᴏᴛ」
