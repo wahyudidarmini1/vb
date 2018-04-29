@@ -20,11 +20,11 @@ else:
     import urllib.parse
 
 owner = VIPRO.LINE() #Akun Utama
-owner.login(token="Es5zGnez6hEQzt6wdFQ2.AZs3a8Vf+ipnhLTOmQbtuG.+HmAXy7D4P9x25rdSQau6ZL468ni3Wa3234TCISJ62A=")
+owner.login(token="EseSSJsiyyFc3656qUpb.laBbOEpcsXIXQThDvNl//W.MfHgHRAqMKgCBGVznGVsZe6q8LQY4I+5OFw3gEi646Y=")
 owner.loginResult()
     
 vipro = VIPRO.LINE()
-vipro.login(token="Esz7X6PLOFaoxbNW1Mce.4uWnRTJU51yT+/CjXTyHBG.79TGK9+Vw7nNlR01aB46+Cz88L8Qjvft+LTJ4W2/dKg=")
+vipro.login(token="Esbk7Jfvp7fvIW1Ovxf1.hSPlQK0sOlldo8W2iFcJWq.1ek8q6shdwUx5RRh+UwkyZSG8i39XKLkarzihHl8ZN8=")
 vipro.loginResult()
 
 ki = VIPRO.LINE()
@@ -48,7 +48,7 @@ ki5.login(token="Esngy5vCtMITaj020NAa.SD28EqyjtLBjPT144PdcQG.ZoMwy8ZoNUrB5dBEEfa
 ki5.loginResult()
 
 ki6 = VIPRO.LINE()
-ki6.login(token="EsYbfsiEBySEyHcMz0wc.Ee/eeDlrP0uTdFlXuHf9Na.2aWAo4FTWA6ktEyfapsTFCAM99iHzDUM+FSO2g4Xz3c=")
+ki6.login(token="EswMurTdeyhmrrlB0ryc.Ee/eeDlrP0uTdFlXuHf9Na.gPqP/QHUWAxvhxQkoTqHguBjHWDxmUgnTtZd15gyg9E=")
 ki6.loginResult()
 
 ki7 = VIPRO.LINE()
