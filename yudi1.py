@@ -40,26 +40,6 @@ ki4 = CYBERTK.LINE()
 ki4.login(token="EsRTnS2XJvUseJVHj2Ua.SD28EqyjtLBjPT144PdcQG.cpDFMsy5pUKzJLzxpHVYu6AzHfVf7KZA1qKw/42/nW4=")
 ki4.loginResult()
 
-ki5 = CYBERTK.LINE()
-ki5.login(token="Esr3aFqK0L6GCKC13d4b.laBbOEpcsXIXQThDvNl//W.ilft7V/z9TdTFNRh2jeR2QpLDKtdt5apyFz3slp/QN0=")
-ki5.loginResult()
-
-ki6 = CYBERTK.LINE()
-ki6.login(token="EsRNxYSs8sEXjqZTnYJ9.VfG2daMSMKOL78PxRGOi6q.i+jYhy6BEauEJpoCpHjYtMv+/giVSnvOCqqm+5deSrQ=")
-ki6.loginResult()
-
-ki7 = CYBERTK.LINE()
-ki7.login(token="EsXWKc1xIVBABEpguSY6.u5E0qHumGolsyebggFHFzG.kXPGyCt15KeM7Ch6SzKylMmwCiO/o9pl6xuPzE42bsE=")
-ki7.loginResult()
-
-ki8 = CYBERTK.LINE()
-ki8.login(token="EsXYhSGsrBgirQIgiFlf.0Gxc/M3RVqR4nYkPcDjtZW.a8reeSge/Q7XLhSjK2G+efF1RzASHkRHL8xdeWUHqAI=")
-ki8.loginResult()
-
-ki9 = CYBERTK.LINE()
-ki9.login(token="Esr3YuojB0sylnXPTWX3.Z7tUqKO5oaEP2cnIzYreyW.YueNAifwqpRcwq6oUjxmO148hlttV4knXgFnO3Xzx7c=")
-ki9.loginResult()
-
 ki10 = CYBERTK.LINE() #Ghost
 ki10.login(token="EsYG5inLFlL4x1xgIyv1.hSPlQK0sOlldo8W2iFcJWq.+EM/UrNqR2ihNEkmgt4dQWUOL8H0TOPzAp5LbpGJN6c=")
 ki10.loginResult()
@@ -332,15 +312,10 @@ kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
-ki5mid = ki5.getProfile().mid
-ki6mid = ki6.getProfile().mid
-ki7mid = ki7.getProfile().mid
-ki8mid = ki8.getProfile().mid
-ki9mid = ki9.getProfile().mid
 ki10mid = ki10.getProfile().mid
 Smid = owner.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"u6b34b703cbc5fc83cd1e5b6832a05352"]
-admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"u6b34b703cbc5fc83cd1e5b6832a05352","u0d12b1262f4a73b199e39297d91b81db","u13181e91af18f3b9aa4ce7d5a5f81653","ud44f0da04a7ed7b6142302071316bef8","ub139a3d989ac57b879c51b75ecb80dcf"]
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki10mid,Smid,"u6b34b703cbc5fc83cd1e5b6832a05352"]
+admin=[mid,kimid,ki2mid,ki3mid,ki4mid,Smid,"u6b34b703cbc5fc83cd1e5b6832a05352","u0d12b1262f4a73b199e39297d91b81db","u13181e91af18f3b9aa4ce7d5a5f81653","ud44f0da04a7ed7b6142302071316bef8","ub139a3d989ac57b879c51b75ecb80dcf"]
 creator=["u6b34b703cbc5fc83cd1e5b6832a05352"]
 admsa=["u6b34b703cbc5fc83cd1e5b6832a05352"]
 
